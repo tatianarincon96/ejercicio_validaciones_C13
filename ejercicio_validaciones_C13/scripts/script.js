@@ -28,8 +28,8 @@ window.onload = () => {
         const nombre = normalizar(dato);
         return regex.test(nombre);
         
-        // VALIDACIÓN MANUAL
-        
+        // EJEMPLO VALIDACIÓN MANUAL
+        /*
         const partesNombre = dato.split(" ");
         let valido = (partesNombre.length >= 2 && nombre.length < 150);
         if (valido) {
@@ -38,7 +38,7 @@ window.onload = () => {
             });
         }
         return valido;
-        
+        */
     }
 
     function validarContrasenia(dato) {
